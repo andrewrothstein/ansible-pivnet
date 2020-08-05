@@ -1,0 +1,8 @@
+---
+# vars file for pivnet
+pivnet_platform: '{{ pivnet_os }}-{{ pivnet_arch }}'
+pivnet_exe: pivnet-{{ pivnet_platform }}-{{ pivnet_ver }}
+pivnet_url: '{{ pivnet_mirror }}/v{{ pivnet_ver }}/{{ pivnet_exe }}'
+pivnet_checksum: '{{ pivnet_checksums[pivnet_ver][pivnet_platform] }}'
+pivnet_installed_exe: '{{ pivnet_install_dir }}/{{ pivnet_exe}} '
+pivnet_installed_link: '{{ pivnet_install_dir }}/pivnet'
