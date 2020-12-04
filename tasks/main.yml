@@ -17,7 +17,7 @@
     dest: '{{ pivnet_installed_exe }}'
     mode: 0755
     checksum: '{{ pivnet_checksum }}'
-- name: link {{ pivnet_installed_link }}
+- name: linking {{ pivnet_installed_link }} to {{ pivnet_installed_exe }}
   become: yes
   become_user: root
   file:
