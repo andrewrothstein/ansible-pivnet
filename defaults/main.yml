@@ -1,6 +1,6 @@
 ---
 # defaults file for pivnet
-pivnet_ver: 3.0.0
+pivnet_ver: 3.0.1
 pivnet_os: linux
 pivnet_arch: amd64
 pivnet_install_dir: /usr/local/bin
@@ -27,3 +27,10 @@ pivnet_checksums:
     linux-amd64: sha256:40bf12d303714a7d7d4f837b4ba3e4eeae5fcba0e05379b699bd3d67cde31c17
     # https://github.com/pivotal-cf/pivnet-cli/releases/download/v3.0.0/pivnet-windows-amd64-3.0.0
     windows-amd64: sha256:1413d46e6b0aee9527875e0ba328f81a5ad3cb89516bbc82abf12ab89bf2806f
+  '3.0.1':
+    # https://github.com/pivotal-cf/pivnet-cli/releases/download/v3.0.1/pivnet-darwin-amd64-3.0.1
+    darwin-amd64: sha256:6eaadefe76eb96342b0ee8909625027b157e06d417e9a5ed8b413435c876351f
+    # https://github.com/pivotal-cf/pivnet-cli/releases/download/v3.0.1/pivnet-linux-amd64-3.0.1
+    linux-amd64: sha256:7ade3877a7e973227c58cac6ae3a51ad788130387c166463691fe08f377928fc
+    # https://github.com/pivotal-cf/pivnet-cli/releases/download/v3.0.1/pivnet-windows-amd64-3.0.1
+    windows-amd64: sha256:a2083d91f8093ca47eac155d8f010b00ede0148d071be7ff79dc01b69a4a762f
