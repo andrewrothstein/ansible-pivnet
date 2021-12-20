@@ -1,6 +1,6 @@
 andrewrothstein.pivnet
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-pivnet.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-pivnet)
+![Build Status](https://github.com/andrewrothstein/ansible-pivnet/actions/workflows/build.yml/badge.svg)
 
 Installs Pivotal's [pivnet-cli](https://github.com/pivotal-cf/pivnet-cli).
 
