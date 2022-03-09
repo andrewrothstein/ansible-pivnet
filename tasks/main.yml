@@ -10,7 +10,7 @@
       paths:
         - '{{ role_path }}/vars'
 - name: downloading {{ pivnet_url }}...
-  become: yes
+  become: true
   become_user: root
   get_url:
     url: '{{ pivnet_url }}'
@@ -18,7 +18,7 @@
     mode: 0755
     checksum: '{{ pivnet_checksum }}'
 - name: linking {{ pivnet_installed_link }} to {{ pivnet_installed_exe }}
-  become: yes
+  become: true
   become_user: root
   file:
     src: '{{ pivnet_installed_exe }}'
