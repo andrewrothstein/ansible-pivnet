@@ -15,18 +15,21 @@ galaxy_info:
         - all
     - name: Debian
       versions:
+        - buster
         - bullseye
     - name: EL
       versions:
         - 8
+        - 9
     - name: Fedora
       versions:
-        - 35
         - 36
+        - 37
     - name: Ubuntu
       versions:
         - bionic
         - focal
+        - jammy
   galaxy_tags:
     - development
   role_name: pivnet
