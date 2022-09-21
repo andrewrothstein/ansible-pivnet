@@ -1,5 +1,7 @@
 ---
 # vars file for pivnet
+pivnet_os: '{{ ansible_system | lower }}'
+pivnet_arch: '{{ pivnet_arch_map[ansible_architecture] }}'
 pivnet_platform: '{{ pivnet_os }}-{{ pivnet_arch }}'
 pivnet_exe: pivnet-{{ pivnet_platform }}-{{ pivnet_ver }}
 pivnet_url: '{{ pivnet_mirror }}/v{{ pivnet_ver }}/{{ pivnet_exe }}'

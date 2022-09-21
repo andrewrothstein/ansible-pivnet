@@ -1,8 +1,8 @@
 ---
 # defaults file for pivnet
 pivnet_ver: 3.0.1
-pivnet_os: linux
-pivnet_arch: amd64
+pivnet_arch_map:
+  x86_64: amd64
 pivnet_install_dir: /usr/local/bin
 pivnet_mirror: https://github.com/pivotal-cf/pivnet-cli/releases/download
 pivnet_checksums:
